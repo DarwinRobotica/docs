@@ -1,0 +1,44 @@
+site_name: Darwin Robótica
+site_description: Documentação para tudo relacionado à Darwin Robótica
+site_author: Darwin Robótica
+site_url: https://docs.darwinrobotica.com.br
+
+repo_url: https://github.com/DarwinRobotica/docs
+repo_name: DarwinRobotica/docs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+nav:
+  - Página Inicial: index.md
+  - Projetos Futuros:
+    - Falcão: projetos_futuros/falcao.md
+    - Lêmure: projetos_futuros/lemure.md
+    - Pardal: projetos_futuros/pardal.md
+    - Víbora: projetos_futuros/vibora.md
+  - Robôs:
+    - Búfalo:
+      - robos/bufalo/index.md
+      - Bring-Up:
+        - robos/bufalo/bring-up/primeiros_passos.md
+      - Simulação:
+        - robos/bufalo/simulacao/index.md
+        - robos/bufalo/simulacao/primeiros_passos_ros_gazebo.md

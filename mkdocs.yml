@@ -13,6 +13,8 @@ markdown_extensions:
 
 theme:
   name: material
+  logo: img/dr-branco.svg
+  favicon: img/favicon.png
   language: pt
   features:
     - navigation.tabs

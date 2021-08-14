@@ -9,3 +9,4 @@ Por enquanto, os seus tópicos de interesse nesse site devem incluir:
 | Página | Descrição |
 | --- | --- |
 | [Simulação Búfalo](/robos/bufalo/simulacao) | Primeiros passos na simulação do Búfalo |
+| [Simulação Lêmure](/robos/lemure/simulacao) | Primeiros passos na simulação do Lêmure |

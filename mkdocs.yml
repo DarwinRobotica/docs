@@ -33,7 +33,6 @@ nav:
   - Página Inicial: index.md
   - Projetos Futuros:
     - Falcão: projetos_futuros/falcao.md
-    - Lêmure: projetos_futuros/lemure.md
     - Pardal: projetos_futuros/pardal.md
     - Víbora: projetos_futuros/vibora.md
   - Robôs:
@@ -44,3 +43,10 @@ nav:
       - Simulação:
         - robos/bufalo/simulacao/index.md
         - robos/bufalo/simulacao/primeiros_passos_ros_gazebo.md
+    - Lêmure:
+      - robos/lemure/index.md
+      - Bring-Up:
+        - robos/lemure/bring-up/primeiros_passos.md
+      - Simulação:
+        - robos/lemure/simulacao/index.md
+        - robos/lemure/simulacao/primeiros_passos_ros_gazebo.md
